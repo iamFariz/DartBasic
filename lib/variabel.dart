@@ -5,16 +5,16 @@ void main() {
   int productStock = 50;
   bool productAvailable = true;
 // Deklarasi variabel untuk informasi pengguna
-  String userName = 'John Doe';
-  int userAge = 30;
-  String userEmail = 'john.doe@example.com';
+  String userName = 'FadilaRizka';
+  int userAge = 20;
+  String userEmail = 'fadila@example.com';
   bool isPremiumMember = true;
 // Menampilkan informasi produk
   print('===== Informasi Produk =====');
   print('Nama Produk: $productName');
   print('Harga Produk: Rp $productPrice');
   print('Stok Tersedia: $productStock');
-  print('Tersedia: ${productAvailable ? 'Ya' :'Tidak'}');
+  print('Tersedia: ${productAvailable ? 'Ya' : 'Tidak'}');
   print('');
 // Menampilkan informasi pengguna
   print('===== Informasi Pengguna =====');
